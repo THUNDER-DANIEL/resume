@@ -2,14 +2,69 @@
 
 /* roots make variables avaiable anywhere on the page CSS variable  */
 :root{
-    --company-blue:blue;
-    --company-yellow:yellow;
+    --company-blue:#1c4587;
+    --company-black:black;
+    --company-white:ghostwhite;
+    --company-liteBlue:rgba(81, 81, 235, 0.644)59, 59, 109);
+}
+
+body{
+    font-size: 1rem;
+}
+
+h1 h2{
+    color: var(--company-black);
+}
+
+
+header{
+    background-color: var(--company-blue);
+    color: ghostwhite;
+    align-items: center;
+    display: inline-block;
+
+}
+.header_text{
+    display: inline-block;
+    padding-left: 50%;
+}
+ .blue_bar{
+     height: 40px;
+     width: 40px;
+     color: var(--company-liteBlue);
+ }
+
+
+.body_text{
+    display: inline-block;
+    width: 45%;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--company-blue);
+
 
 }
 
-h1{
-    color: var(--company-blue);
+
+
+.text-primary{
+    color var(--com)
 }
-h2{
-    color: var(--company-yellow);
+
+.d-flex{
+    display: flex;
+}
+
+.head_center{
+    text-align: center;
+    
+}
+
+.side_menu{
+    display: inline-block;
 }
