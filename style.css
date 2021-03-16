@@ -1,0 +1,15 @@
+
+
+/* roots make variables avaiable anywhere on the page CSS variable  */
+:root{
+    --company-blue:blue;
+    --company-yellow:yellow;
+
+}
+
+h1{
+    color: var(--company-blue);
+}
+h2{
+    color: var(--company-yellow);
+}
